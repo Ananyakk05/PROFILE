@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -24,6 +25,22 @@
         h1 {
             margin: 0;
             font-size: 2.5rem;
+        }
+        
+        .profile-image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: -50px;
+            margin-bottom: 30px;
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
         }
         
         .container {
@@ -113,16 +130,22 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Ananya Krishnakumar</h1>
         <p>B.Tech in Computer Science</p>
     </header>
     
+    <div class="profile-image-container">
+        <img src="C:\Users\DELL\Downloads\WhatsApp Image 2025-04-20 at 9.20.00 PM.jpeg" alt="Ananya Krishnakumar" class="profile-image">
+        <!-- Replace the placeholder with your actual image URL when hosting online -->
+    </div>
+    
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>🎓 <strong>Education:</strong> B.Tech in Computer Science and Engineering- G Narayanamma Institute of Technology & Science</p>
+            <p>🎓 <strong>Education:</strong> B.Tech in Computer Science and Engineering- G Narayanamma Institute of Technology & Science, Intermediate in FIITJEE, SSC in Phoenix Greens School of Learning </p>
             <p>💻 <strong>Technical Skills:</strong> Python, Java, Data Structures & Algorithms</p>
             <p>🌱 <strong>Career Interests:</strong> Artificial Intelligence, Machine Learning applications</p>
             <p>🤝 <strong>Professional Goals:</strong> Actively seeking collaborative opportunities in hackathons and open-source projects</p>
@@ -143,10 +166,8 @@
         <section id="projects">
             <h2>Projects</h2>
             <div class="projects">
-      
-                
                 <div class="project-card">
-                    <img src="C:\Users\DELL\Desktop\diabetes\WhatsApp Image 2025-04-20 at 4.21.57 PM.jpeg" alt="Diabetes Data Generator">
+                    <img src="C:\Users\DELL\Desktop\diabetes\WhatsApp Image 2025-04-20 at 4.21.44 PM.jpeg" alt="Diabetes Data Generator">
                     <div class="project-info">
                         <h3>Synthetic Diabetes Dataset Generator</h3>
                         <p>Created a Python tool to generate realistic synthetic diabetes patient data for machine learning research.</p>
@@ -205,10 +226,9 @@ PatientID    Age  Gender    BMI  Systolic_BP  ...
             <p>📱 Phone: +91 9100258488</p>
             <p>📍 Location: Hyderabad, India</p>
             
-            <div class="social-links">
-                <a href=www.linkedin.com/in/-ananya-krishnakumar target="_blank">LinkedIn</a>
-                
-            </div>
+            
+            <p>Linkedin: <a href="https://www.linkedin.com/in/-ananya-krishnakumar" target="_blank">https://www.linkedin.com/in/-ananya-krishnakumar</a>
+            
         </section>
     </div>
     
